@@ -28,17 +28,6 @@ Current Progress
 ⏳ Backend Development
 ⏳ AI Integration
 
-# Repository Structure
-full-stack-engineering-journey/
-│
-├── HTML/
-├── CSS/
-├── JavaScript/
-├── Projects/
-├── AI-Projects/
-├── Daily-Progress/
-└── README.md
-
 # Current Focus
 * Strengthening frontend fundamentals
 * Building practical projects
