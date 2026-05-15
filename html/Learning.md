@@ -174,20 +174,9 @@ Archive
 ✔ Personal Learning Dashboard
 Built a structured dashboard layout using semantic HTML sections, navigation, lists and accessibility elements.
 
-✔ Weekly Study Timetable
-Created a timetable using HTML tables, captions and organized content structure.
 
 ✔ Personal Portfolio Structure
 Designed a portfolio page containing profile information, education, skills and contact sections.
-
-✔ Registration & Feedback Forms
-Built forms using labels, inputs, radio buttons, checkboxes, fieldsets and validation elements.
-
-✔ Semantic Website Layout Practice
-Created webpage layouts using `header`, `nav`, `main`, `section`, `aside` and `footer`.
-
-✔ Accessibility Practice Components
-Implemented ARIA attributes (`aria-label`, `aria-labelledby`) and semantic structures for better accessibility.
 
 
 ---
