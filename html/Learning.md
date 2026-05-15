@@ -172,11 +172,11 @@ Archive
 ## Mini Projects Built
 
 ✔ Personal Learning Dashboard
-Built a structured dashboard layout using semantic HTML sections, navigation, lists and accessibility elements.
+* Built a structured dashboard layout using semantic HTML sections, navigation, lists and accessibility elements.
 
 
 ✔ Personal Portfolio Structure
-Designed a portfolio page containing profile information, education, skills and contact sections.
+* Designed a portfolio page containing profile information, education, skills and contact sections.
 
 
 ---
