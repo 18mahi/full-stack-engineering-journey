@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <main>
+            <form action="#" method="post">
+                <!--profile completion progress-->
+                <label for="profile-completion">Profile Completion:</label>
+                <progress id="profile-completion" value="30" max="100"></progress><br>
+
+                <h2>Personal Information</h2>
+
+                <div>
+
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Type your full name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Type your email" required><br><br>
+
+                    <label for="contact-number">Contact Number:</label>
+                    <input type="tel" id="contact-number" name="contact-number" placeholder="Type your contact number" required><br><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required><br><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" placeholder="Type your age" required><br><br>
+
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="color"><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required><br><br>
+                
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="m" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="f" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="o" required>
+                    <label for="other">Other</label><br><br>
+                </div>
+
+                <!--File upload for profile photo-->
+                <label for="profile-photo"><b>Profile Photo:</b></label><br>
+                <input type="file" id="profile-photo" name="profile-photo" accept=".jpg, .jpeg, .png" required><br><br>
+
+                <fieldset>
+                    <legend><b>Skills:</b></legend>
+                    <input type="checkbox" id="html" name="skills" value="html" required>
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="skills" value="css">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="javascript" name="skills" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+                    <input type="checkbox" id="python" name="skills" value="python">
+                    <label for="python">Python</label><br>
+                    <input type="checkbox" id="java" name="skills" value="java">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" id="aiml" name="skills" value="aiml">
+                    <label for="aiml">AI/ML</label><br>
+                </fieldset>
+
+                <h2>course selection</h2>
+                <label for="course">Course:</label >
+                <select id="course" name="course" required>
+                    <option value="" disabled selected>Select Course</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="AI/ML">AI/ML</option>
+                    <option value="Cloud-Computing">Cloud Computing</option>
+                    <option value="mobile-app-development">Mobile App Development</option>
+                    <option value="cyber-security">Cyber Security</option>
+                </select><br>
+                
+                <h2>Education details </h2>
+                <label for="college-name">College Name:</label>
+                <input type="text" id="college-name" name="college-name" required><br><br>
+
+                <label for="semester">Semester:</label>
+                <input type="number" id="semester" name="Semester" min="1" max="8"><br>
+
+                <h2>Feedback section</h2>
+                <label for="feedback">Why do you want to join this course?</label><br><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback..."></textarea><br>
+
+                <!--Terms and conditions-->
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label><br><br>
+
+                <!--Submit button-->
+                <button type="submit">Register</button>
+
+                <!--Reset button-->
+                <button type="reset">Reset</button>
+            </form><br>
+            
+        </main>
+    </body>
+</html>
