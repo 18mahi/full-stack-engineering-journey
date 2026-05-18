@@ -35,6 +35,8 @@ This project is a beginner-friendly dashboard that organizes student learning in
 
 The goal of this project is to practice semantic HTML and build a structured page that can later be improved using CSS and JavaScript.
 
+## Status: pending
+
 ## Folder Structure
 
 ```text
@@ -43,5 +45,3 @@ student-learning-dashboard/
 ├── index.html
 |__assets/--outputs
 └── README.md
-
-## Status: pending
