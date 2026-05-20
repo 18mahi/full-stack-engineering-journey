@@ -3,168 +3,166 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Student Timetable System</title>
+        <title>Student Learning Dashboard</title>
     </head>
     <body>
         <header>
-            <h1>Student Weekly Timetable </h1>
+            <h1><u>Student Learning Dashboard</u></h1>
+            <p><b>Track. Learn. Improve.</b></p>
+
+            <nav>
+                <ul>
+                    <li><a href="#" target="_blank" style="text-decoration: none; color:black ">Home</a></li>
+                    <li><a href="#" target="_blank" style="text-decoration: none; color:black">Courses</a></li>
+                    <li><a href="#" target="_blank" style="text-decoration: none; color:black">Goals</a></li>
+                    <li><a href="#" target="_blank" style="text-decoration: none; color:black">Progress</a></li>
+                    <li><a href="#" target="_blank" style="text-decoration: none; color:black">Contact</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <section id="Learning Goals">
+                    <h2><u>Learning Goals</u></h2>
+                    <h3>Daily Goals</h3>
+                    <ul>
+                        <li>Practice HTML tags and elements</li>
+                        <li>Learn semantic HTML structure</li>
+                        <li>Create small HTML layouts for practice</li>
+                        <li>Improve form and table creation skills</li>
+                    </ul>
+
+                    <h3>Weekly Goals</h3>
+                    <ul>
+                        <li>Complete important HTML concepts</li>
+                        <li>Build 2&ndash;3 HTML practice pages</li>
+                        <li>Practice forms, tables, and semantic tags</li>
+                        <li>Revise previously learned HTML topics</li>
+                    </ul>
+                    <h3>Monthly Goals</h3>
+                    <ul>
+                        <li>Complete HTML fundamentals</li>
+                        <li>Build mini HTML projects for practice</li>
+                        <li>Create responsive page structures using HTML</li>
+                        <li>Gain confidence in writing clean HTML code</li>
+                    </ul>
+                </section>
+
+                <section id="Current Subject/Skills">
+                    <h2><u>Current Subjects/Skills</u></h2>
+                    <article id="HTML">
+                        <p><b>Skill Name:</b> HTML</p>
+                        <p>
+                            <b>Progress Status:</b>
+                            In Progress / Strong Foundation
+                        </p>
+                        <p>
+                            <b>Description:</b>
+                            Completed HTML fundamentals including semantic tags, forms, tables, lists, media elements, and page structure.
+                            Practicing mini projects to strengthen frontend fundamentals.
+                        </p>
+                    </article>
+                    <hr>
+
+                    <article id="CSS">
+                        <p><b>Skill Name:</b> CSS</p>
+                        <p>
+                            <b>Progress Status:</b>
+                            Learning
+                        </p>
+                        <p>
+                            <b>Description:</b>
+                            Learning styling concepts including colors, typography,
+                            box model, spacing, backgrounds, borders, display properties, 
+                            and layout fundamentals to build visually appealing webpages.
+                        </p>
+                    </article>
+                    <hr>
+
+                    <article id="JavaScript">
+                        <p><b>Skill Name:</b> JavaScript</p>
+                        <p>
+                            <b>Progress Status:</b>
+                            Upcoming / Planned
+                        </p>
+                        <p>
+                            <b>Description:</b>
+                            Planning to learn JavaScript for interactivity,
+                            DOM manipulation, event handling, logic building, 
+                            and dynamic web development.
+                        </p>
+                    </article>
+                    <hr>
+                </section>
+
+                <section id="Study Schedule">
+                    <table border="5" cellpadding="3" cellspacing="2">
+                        <caption><b>Study Schedule</b></caption>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Subject</th>
+                                <th>Duration</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>GATE C Programming</td>
+                                <td>2 hours</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>Python for AI/ML</td>
+                                <td>2 hours</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>HTML & CSS</td>
+                                <td>1.5 hours</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>Aptitude Practice</td>
+                                <td>1 hours</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>Full Stack Practice</td>
+                                <td>2 hours</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>Mini Project</td>
+                                <td>2 hours</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Revision + GitHub Upload</td>
+                                <td>1 hour</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </main>
+
+            <aside>
+                <h4>Today's Reminder</h4>
+                <ul>
+                    <li>Practice coding consistently</li>
+                    <li>Revise previous concepts daily</li>
+                    <li>Push code to GitHub after completing tasks</li>
+                    <li>Focus on learning, not perfection</li>
+                    <li>Build at least one mini project every week</li>
+                </ul>
+
+            </aside>
+
+            <footer>
+                <p><b>Mahi Jindal</b></p>
+                <p>&copy; 2026 Student Learning Dashboard. All rights reserved.</p>
+
+            </footer>
         </header>
-        <main>
-            <table border="1" cellspacing="0" cellpadding="10">
-                <caption hidden>Weekly Schedule</caption>
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Subject</th>
-                        <th>Time</th>
-                        <th>Priority</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td rowspan="4">Monday</td>
-                        <td>GATE C Programming</td>
-                        <td>7:00 AM - 9:00 AM</td>
-                        <td>🔥High</td>
-                    </tr>
-
-                    <tr>
-                        <td>Python for AI/ML</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>⚡Medium</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="3">🍽️Lunch Break (1:00 PM - 2:00 PM)</td>
-                    </tr>
-
-                    <tr>
-                        <td>GYM</td>
-                        <td>6:30 PM - 8:00 PM</td>
-                        <td>✅Low</td>
-                    </tr>
-
-                    <tr>
-                        <td rowspan="4">Tuesday</td>
-                        <td>Data Structures (C)</td>
-                        <td>7:00 AM - 9:00 AM</td>
-                        <td>🔥High</td>
-                    </tr>
-
-                    <tr>
-                        <td>HTML/CSS Practice</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>⚡Medium</td>
-                    </tr>
-                    
-                    <tr>
-                        <td colspan="3">🍽️Lunch Break (1:00 PM - 2:00 PM)</td>
-                    </tr>
-                    <tr>
-                        <td>Aptitude Practice</td>
-                        <td>8:30 PM - 9:00 PM</td>
-                        <td>✅Low</td>
-                    </tr>
-
-                    <tr>
-                        <td rowspan="4">Wednesday</td>
-                        <td>GATE Operating System</td>
-                        <td>7:00 AM - 9:00 AM</td>
-                        <td>🔥High</td>
-                    </tr>
-
-                    <tr>
-                        <td>Python Mini Project</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>⚡Medium</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="3">🍽️Lunch Break (1:00 PM - 2:00 PM)</td>
-                    </tr>
-
-                    <tr>
-                        <td>GYM</td>
-                        <td>6:30 PM - 8:00 PM</td>
-                        <td>✅Low</td>
-                    </tr>
-
-                    <tr>
-                        <td rowspan="4">Thursday</td>
-                        <td>GATE DBMS</td>
-                        <td>7:00 AM - 9:00 AM</td>
-                        <td>🔥High</td>
-                    </tr>
-
-                    <tr>
-                        <td>MERN Learning</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>⚡Medium</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="3">🍽️Lunch Break (1:00 PM - 2:00 PM)</td>
-                    </tr>
-
-                    <tr>
-                        <td>Revision</td>
-                        <td>8:00 PM - 9:00 PM</td>
-                        <td>✅Low</td>
-                    </tr>
-
-                    <tr>
-                        <td rowspan="4">Friday</td>
-                        <td>GATE CN</td>
-                        <td>7:00 AM - 9:00 AM</td>
-                        <td>🔥High</td>
-                    </tr>
-
-                    <tr>
-                        <td>AI/ML Practice</td>
-                        <td>10:00 AM - 12:00 PM</td>
-                        <td>⚡Medium</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">🍽️Lunch Break (1:00 PM - 2:00 PM)</td>
-                    </tr>
-                    <tr>
-                        <td>GYM</td>
-                        <td>6:30 PM - 8:00 PM</td>
-                        <td>✅Low</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="4">Saturday</td>
-                        <td>Mock Test / PYQs</td>
-                        <td>7:00 AM - 9:00 AM</td>
-                        <td>🔥High</td>
-                    </tr>
-
-                    <tr>
-                        <td>Mini Project Work</td>
-                        <td>11:00 AM - 1:00 PM</td>
-                        <td>⚡Medium</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="3">🍽️Lunch Break (1:00 PM - 2:00 PM)</td>
-                    </tr>
-                    <tr>
-                        <td>Weekly Reflection</td>
-                        <td>8:00 PM - 9:00 PM</td>
-                        <td>✅Low</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">
-                            🎯 Sunday Special: Weekly Revision + Goal Planning + Progress Review
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </main>
-        <footer>
-            <p>Designed by Mahi Jindal | HTML Learning Challenge</p>
-        </footer>
     </body>
 </html>
