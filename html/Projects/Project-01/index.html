@@ -6,8 +6,11 @@
         <title>Student Learning Dashboard</title>
     </head>
     <body>
+        <label for="progress_bar"><b>Overall Progress:</b></label>
+        <progress id="progress_bar" value="60" max="100"></progress>
         <header>
             <h1><u>Student Learning Dashboard</u></h1>
+            <img src="logo.png" alt="Dashboard Icon" width="80" height="80">
             <p><b>Track. Learn. Improve.</b></p>
 
             <nav>
@@ -19,9 +22,9 @@
                     <li><a href="#" target="_blank" style="text-decoration: none; color:black">Contact</a></li>
                 </ul>
             </nav>
-
+        </header>
             <main>
-                <section id="Learning Goals">
+                <section id="Learning_Goals">
                     <h2><u>Learning Goals</u></h2>
                     <h3>Daily Goals</h3>
                     <ul>
@@ -47,7 +50,20 @@
                     </ul>
                 </section>
 
-                <section id="Current Subject/Skills">
+                <section id="favourite_learning_goals">
+                    <h2>Favorite Learning Resources</h2>
+
+                    <ul>
+                        <li>YouTube — Apna College (Web Development)</li>
+                        <li>YouTube — CodeWithHarry (Programming & DSA)</li>
+                        <li>Physics Wallah — GATE CS & DA Preparation</li>
+                        <li>GeeksforGeeks — Coding Practice & Concepts</li>
+                        <li>LeetCode — Problem Solving Practice</li>
+                        <li>GitHub — Project Learning & Version Control</li>
+                    </ul>
+                </section>
+
+                <section id="Current_Subject/Skills">
                     <h2><u>Current Subjects/Skills</u></h2>
                     <article id="HTML">
                         <p><b>Skill Name:</b> HTML</p>
@@ -94,8 +110,8 @@
                     <hr>
                 </section>
 
-                <section id="Study Schedule">
-                    <table border="5" cellpadding="3" cellspacing="2">
+                <section id="Study_Schedule">
+                    <table border="1" cellpadding="3" cellspacing="2">
                         <caption><b>Study Schedule</b></caption>
                         <thead>
                             <tr>
@@ -144,6 +160,16 @@
                         </tbody>
                     </table>
                 </section>
+
+                <section id="top_three_goals">
+                    <h2>Top 3 Goals</h2>
+
+                    <ol>
+                        <li>Become Industry-Ready in AI/ML and Data Science</li>
+                        <li>Crack GATE CS & DA with a High Rank</li>
+                        <li>Build Strong Projects and Improve Development Skills</li>
+                    </ol>
+                </section>
             </main>
 
             <aside>
@@ -163,6 +189,5 @@
                 <p>&copy; 2026 Student Learning Dashboard. All rights reserved.</p>
 
             </footer>
-        </header>
     </body>
 </html>
