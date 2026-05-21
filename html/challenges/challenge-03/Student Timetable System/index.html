@@ -2,161 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Timetable System</title>
+  <title>Student Weekly Timetable</title>
 </head>
 <body>
 
-  <header>
-    <h1>Student Timetable System</h1>
-    <p>A simple weekly study timetable using HTML tables.</p>
-  </header>
+  <h1>Student Weekly Timetable</h1>
 
-  <main>
-    <section>
-      <h2>Weekly Study Schedule</h2>
+  <table border="1" cellspacing="0" cellpadding="12">
+    <tr>
+      <th>Day</th>
+      <th>Subject</th>
+      <th>Time</th>
+      <th>Priority</th>
+    </tr>
 
-      <table border="1" cellspacing="0" cellpadding="10">
-        <caption>Weekly Student Study Timetable</caption>
+    <tr>
+      <td rowspan="4">Monday</td>
+      <td>GATE C Programming</td>
+      <td>7:00 AM - 9:00 AM</td>
+      <td>🔥 High</td>
+    </tr>
+    <tr>
+      <td>Python for AI/ML</td>
+      <td>10:00 AM - 12:00 PM</td>
+      <td>⚡ Medium</td>
+    </tr>
+    <tr>
+      <td colspan="3">🍽️ Lunch Break (1:00 PM - 2:00 PM)</td>
+    </tr>
+    <tr>
+      <td>GYM</td>
+      <td>6:30 PM - 8:00 PM</td>
+      <td>✅ Low</td>
+    </tr>
 
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Subject</th>
-            <th>Activity</th>
-            <th>Priority</th>
-          </tr>
-        </thead>
+    <tr>
+      <td rowspan="4">Tuesday</td>
+      <td>Data Structures (C)</td>
+      <td>7:00 AM - 9:00 AM</td>
+      <td>🔥 High</td>
+    </tr>
+    <tr>
+      <td>HTML/CSS Practice</td>
+      <td>10:00 AM - 12:00 PM</td>
+      <td>⚡ Medium</td>
+    </tr>
+    <tr>
+      <td colspan="3">🍽️ Lunch Break (1:00 PM - 2:00 PM)</td>
+    </tr>
+    <tr>
+      <td>Aptitude Practice</td>
+      <td>8:30 PM - 9:00 PM</td>
+      <td>✅ Low</td>
+    </tr>
 
-        <tbody>
-          <tr>
-            <td rowspan="3">Monday</td>
-            <td>7:00 AM - 9:00 AM</td>
-            <td>C Programming</td>
-            <td>Practice basics and problems</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>10:00 AM - 12:00 PM</td>
-            <td>Discrete Mathematics</td>
-            <td>Functions and relations</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>4:00 PM - 5:00 PM</td>
-            <td>Python</td>
-            <td>Mini project practice</td>
-            <td>Medium</td>
-          </tr>
+    <tr>
+      <td rowspan="4">Wednesday</td>
+      <td>GATE Operating System</td>
+      <td>7:00 AM - 9:00 AM</td>
+      <td>🔥 High</td>
+    </tr>
+    <tr>
+      <td>Python Mini Project</td>
+      <td>10:00 AM - 12:00 PM</td>
+      <td>⚡ Medium</td>
+    </tr>
+    <tr>
+      <td colspan="3">🍽️ Lunch Break (1:00 PM - 2:00 PM)</td>
+    </tr>
+    <tr>
+      <td>GYM</td>
+      <td>6:30 PM - 8:00 PM</td>
+      <td>✅ Low</td>
+    </tr>
 
-          <tr>
-            <td rowspan="3">Tuesday</td>
-            <td>7:00 AM - 9:00 AM</td>
-            <td>Operating System</td>
-            <td>Process and scheduling</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>10:00 AM - 12:00 PM</td>
-            <td>Aptitude</td>
-            <td>Percentage and ratio practice</td>
-            <td>Medium</td>
-          </tr>
-          <tr>
-            <td>4:00 PM - 5:00 PM</td>
-            <td>HTML/CSS</td>
-            <td>Frontend practice</td>
-            <td>Medium</td>
-          </tr>
+    <tr>
+      <td rowspan="4">Thursday</td>
+      <td>GATE DBMS</td>
+      <td>7:00 AM - 9:00 AM</td>
+      <td>🔥 High</td>
+    </tr>
+    <tr>
+      <td>MERN Learning</td>
+      <td>10:00 AM - 12:00 PM</td>
+      <td>⚡ Medium</td>
+    </tr>
+    <tr>
+      <td colspan="3">🍽️ Lunch Break (1:00 PM - 2:00 PM)</td>
+    </tr>
+    <tr>
+      <td>Revision</td>
+      <td>8:00 PM - 9:00 PM</td>
+      <td>✅ Low</td>
+    </tr>
 
-          <tr>
-            <td rowspan="3">Wednesday</td>
-            <td>7:00 AM - 9:00 AM</td>
-            <td>Data Structures</td>
-            <td>Arrays and linked lists</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>10:00 AM - 12:00 PM</td>
-            <td>Computer Networks</td>
-            <td>OSI model revision</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>4:00 PM - 5:00 PM</td>
-            <td>Python</td>
-            <td>File handling practice</td>
-            <td>Medium</td>
-          </tr>
+    <tr>
+      <td rowspan="4">Friday</td>
+      <td>GATE CN</td>
+      <td>7:00 AM - 9:00 AM</td>
+      <td>🔥 High</td>
+    </tr>
+    <tr>
+      <td>AI/ML Practice</td>
+      <td>10:00 AM - 12:00 PM</td>
+      <td>⚡ Medium</td>
+    </tr>
+    <tr>
+      <td colspan="3">🍽️ Lunch Break (1:00 PM - 2:00 PM)</td>
+    </tr>
+    <tr>
+      <td>GYM</td>
+      <td>6:30 PM - 8:00 PM</td>
+      <td>✅ Low</td>
+    </tr>
 
-          <tr>
-            <td rowspan="3">Thursday</td>
-            <td>7:00 AM - 9:00 AM</td>
-            <td>Database Management System</td>
-            <td>SQL and normalization</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>10:00 AM - 12:00 PM</td>
-            <td>Mathematics</td>
-            <td>Linear algebra basics</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>4:00 PM - 5:00 PM</td>
-            <td>CSS</td>
-            <td>Styling table layout</td>
-            <td>Medium</td>
-          </tr>
+    <tr>
+      <td rowspan="4">Saturday</td>
+      <td>Mock Test / PYQs</td>
+      <td>7:00 AM - 9:00 AM</td>
+      <td>🔥 High</td>
+    </tr>
+    <tr>
+      <td>Mini Project Work</td>
+      <td>11:00 AM - 1:00 PM</td>
+      <td>⚡ Medium</td>
+    </tr>
+    <tr>
+      <td colspan="3">🍽️ Lunch Break (1:00 PM - 2:00 PM)</td>
+    </tr>
+    <tr>
+      <td>Weekly Reflection</td>
+      <td>8:00 PM - 9:00 PM</td>
+      <td>✅ Low</td>
+    </tr>
 
-          <tr>
-            <td rowspan="3">Friday</td>
-            <td>7:00 AM - 9:00 AM</td>
-            <td>Algorithms</td>
-            <td>Sorting and searching</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>10:00 AM - 12:00 PM</td>
-            <td>Machine Learning</td>
-            <td>Basic ML concepts</td>
-            <td>Medium</td>
-          </tr>
-          <tr>
-            <td>4:00 PM - 5:00 PM</td>
-            <td>Revision</td>
-            <td>Weekly topic revision</td>
-            <td>High</td>
-          </tr>
+    <tr>
+      <td colspan="4">🎯 Sunday Special: Weekly Revision + Goal Planning + Progress Review</td>
+    </tr>
+  </table>
 
-          <tr>
-            <td rowspan="2">Saturday</td>
-            <td>8:00 AM - 10:00 AM</td>
-            <td>Mock Practice</td>
-            <td>GATE PYQs and test practice</td>
-            <td>High</td>
-          </tr>
-          <tr>
-            <td>11:00 AM - 12:00 PM</td>
-            <td>GitHub</td>
-            <td>Upload weekly work</td>
-            <td>Medium</td>
-          </tr>
-
-          <tr>
-            <td>Sunday</td>
-            <td colspan="3">Weekly Revision, Planning, and Rest</td>
-            <td>Medium</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main>
-
-  <footer>
-    <p>Created as part of my HTML learning journey.</p>
-  </footer>
+  <p>Designed by Mahi Jindal | HTML Learning Challenge</p>
 
 </body>
 </html>
