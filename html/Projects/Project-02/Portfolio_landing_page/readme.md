@@ -83,7 +83,7 @@ The purpose of this project is to improve my HTML skills by creating a portfolio
 Through this project, I practiced creating webpage structures using pure HTML and improved my understanding of semantic tags and content organization.
 
 ---
-## Status: In Progress
+## Status: Completed
 ---
 ## Author
 
