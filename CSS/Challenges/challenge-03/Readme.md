@@ -58,11 +58,9 @@ Style the navbar so that:
 
 ## 🎯 Expected Layout
 
-```text
-------------------------------------------------------------
- CodeSpace       Home   About   Services   Contact    Login
-------------------------------------------------------------
-```
+
+<img width="604" height="101" alt="{C854572E-7631-431C-A203-D4BA2035FDDC}" src="https://github.com/user-attachments/assets/3df90571-7ff0-413b-95af-d17c8cbbf153" />
+
 
 The exact colors, spacing, font sizes, and other visual details are up to you.
 
