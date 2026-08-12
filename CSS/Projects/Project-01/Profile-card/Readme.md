@@ -64,5 +64,6 @@ No CSS frameworks or UI libraries are used in this project.
 profile-card/
 │
 ├── index.html
+|___screeshot of html file 
 ├── style.css
 └── README.md
