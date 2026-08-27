@@ -25,6 +25,7 @@ img{
     border:2px solid;
     color:bisque;
     margin:10px;
+    box-shadow: 5px 5px 10px rgb(240, 180, 15);
 }
 .profile-role{
     font-size:larger;
@@ -62,4 +63,21 @@ button{
     margin:20px;
     font-size:larger;
     border:3px solid;
+}
+.social-link:hover{
+    text-decoration:none;
+    color:bisque;
+}
+.follow-button:hover{
+    color:rgb(235, 148, 34);
+    background-color:black;
+}
+.profile-image{
+    border:2px solid;
+    max-width: 150px;
+    justify-self:center;
+    align-self:center;
+}
+img{
+    max-width:150px;
 }
