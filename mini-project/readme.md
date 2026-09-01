@@ -30,7 +30,9 @@ CSS-Sidebar-Menu/
 ├── index1.html
 ├── style.css
 ├── photo2.jpg
+|__screenshots of project
 └── README.md
+
 
 ## 📋 Menu Items
 * 🖼️ Gallery
