@@ -2,7 +2,7 @@
 
 A responsive profile card built from scratch using **HTML5 and CSS3**.
 
-This project is created as part of my **CSS learning and practice journey**. The HTML provides the structure, while the visual design and layout are implemented using CSS without using any CSS framework.
+This project is part of my **CSS learning and practice journey**. The HTML provides the structure, while the complete visual design and layout are implemented using CSS without any CSS framework.
 
 ---
 
@@ -12,17 +12,17 @@ The goal of this project is to practice creating a clean and responsive profile 
 
 The profile card includes:
 
-- Profile picture
-- Name
-- Job title
-- Short biography
-- Skills
-- Social media links
-- Follow button
-- Responsive layout
-- Interactive hover effects
+* 👤 Profile picture
+* 🏷️ Name
+* 💼 Job title
+* 📝 Short biography
+* 🛠️ Skills
+* 🔗 Social media links
+* ➕ Follow button
+* 📱 Responsive layout
+* ✨ Interactive hover effects
 
-The project focuses primarily on **CSS styling, layout, spacing, positioning, and responsiveness**.
+The project focuses primarily on **CSS styling, layout, spacing, positioning, transitions, and responsiveness**.
 
 ---
 
@@ -30,29 +30,28 @@ The project focuses primarily on **CSS styling, layout, spacing, positioning, an
 
 Through this project, I practiced:
 
-- Structuring content using semantic HTML
-- Styling elements using CSS
-- Understanding the CSS Box Model
-- Working with margins and padding
-- Creating borders and rounded corners
-- Working with colors and typography
-- Centering elements
-- Creating layouts using Flexbox
-- Creating layouts using CSS Grid
-- Understanding CSS positioning
-- Creating hover effects
-- Using CSS transitions
-- Creating responsive layouts
-- Using media queries
-- Managing spacing and alignment
-- Creating reusable CSS classes
+* CSS Box Model
+* Colors
+* Typography
+* Margins and Padding
+* Borders
+* Border Radius
+* Flexbox
+* Alignment
+* Spacing
+* Hover Effects
+* Transitions
+* Positioning
+* Responsive Design
+* Media Queries
+* Linear Gradients
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5**
-- **CSS3**
+* **HTML5**
+* **CSS3**
 
 No CSS frameworks or UI libraries are used in this project.
 
@@ -64,7 +63,50 @@ No CSS frameworks or UI libraries are used in this project.
 profile-card/
 │
 ├── index.html
-|___screeshot of html file
-|__output of project(html + css)
 ├── style.css
+├── screenshot.png
+├── output.png
 └── README.md
+```
+
+### 📸 Project Screenshots
+
+#### HTML Structure
+
+![HTML Screenshot](screenshot.png)
+
+#### Final Output
+
+![Profile Card Output](output.png)
+
+---
+
+## 🎯 Learning Objective
+
+The main objective of this project is to strengthen my CSS fundamentals by designing a profile card without using any CSS framework.
+
+The HTML structure is intentionally kept simple so that the entire visual design can be created using CSS.
+
+---
+
+## 🚀 Future Improvements
+
+* [ ] Add a dark mode
+* [ ] Add more animated hover effects
+* [ ] Improve responsive design
+* [ ] Add social media icons
+* [ ] Add profile statistics
+* [ ] Add a **"View Profile"** button
+* [ ] Add more advanced CSS animations
+
+---
+
+## 👨‍💻 Author
+
+**Mahi Jindal**
+
+---
+
+## 📄 License
+
+This project is created for **learning and practice purposes**.
