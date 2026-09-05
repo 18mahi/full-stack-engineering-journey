@@ -137,7 +137,7 @@ responsive-pricing-cards/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone Bootstrap demo
 ```
 
 ### 2. Open the Project
