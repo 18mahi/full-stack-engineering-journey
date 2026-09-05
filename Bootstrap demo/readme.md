@@ -137,7 +137,7 @@ responsive-pricing-cards/
 ### 1. Clone the Repository
 
 ```bash
-git clone Bootstrap demo
+git clone https://github.com/18mahi/full-stack-engineering-journey/tree/8a9379f054be51d6b16786322748ca34f45175b1/Bootstrap%20demo
 ```
 
 ### 2. Open the Project
