@@ -18,21 +18,30 @@
                         </section>
                         <!-- Login Section -->
                         <section class="login-section">
-                                <h2>Welcome Back</h2>
-                                <p>Sign in to your account</p>
+                                <h2><i>Welcome Back</i></h2>
+                                <p class="starter-line">Sign in to your account</p>
                                 <form>
                                         <!-- Email -->
-                                        <label for="email">Email address</label>
-                                        <input type="email" id="email" name="email" placeholder="Enter your email" required >
+                                        <div class="email">
+                                                <label for="email"></label>
+                                                <i class="fa-solid fa-envelope-open-text"></i>
+                                                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                                        </div>
+                                        
                                         <!-- Password -->
-                                        <label for="password">Password</label>
-                                        <i></i>
-                                        <input type="password" id="password" name="password" placeholder="Enter your password" required >
+                                        <div class="password">
+                                                <label for="password"></label>
+                                                <i class="fa-solid fa-lock"></i>
+                                                <input type="password" id="password" name="password" placeholder="Password" required >
+                                        </div>
+
                                         <!-- Remember Me -->
                                         <div class="remember-section">
                                                 <label><input type="checkbox" name="remember">Remember me</label>
                                                 <a href="#">Forgot password?</a>
                                         </div>
+
+
                                         <!-- Login Button -->
                                         <button type="submit">
                                                 Sign In
